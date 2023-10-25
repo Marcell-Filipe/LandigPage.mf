@@ -275,6 +275,7 @@ footer{
     flex-direction: column;
     gap: 2rem;
     min-height: 10px;
+    padding: 2rem;
 }
 
 footer > div{
@@ -290,10 +291,10 @@ footer > div{
     gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
-    min-height: 40px;
+    min-height: 2rem;
     background-color: var(--rosa1);
     text-decoration: none;
-    color: var(--white);
+    color: var(--dark5);
     font-family: 'oswald';
 }
 
