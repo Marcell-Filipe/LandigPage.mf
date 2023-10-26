@@ -62,7 +62,7 @@ header{
 
 nav{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -76,7 +76,7 @@ nav{
 .nav-links:hover{
     color: var(--rosa1);
     transition: .4s;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .BOX-BTN-ACTIONS{
@@ -168,7 +168,7 @@ section{
 .FIRST-SECTION H1{
     font-size: 3rem;
     color:var(--white);
-    letter-spacing: 7px;
+    letter-spacing: 10px;
 }
 
 strong{
@@ -231,7 +231,7 @@ strong{
     gap: 2rem;
 }
 
-.THRID-SECTION > div{
+.THRID-SECTION > DIv{
     display: flex;
     gap: 4rem;
     justify-content: center;
@@ -239,16 +239,21 @@ strong{
     flex-wrap: wrap;
 }
 
-.THRID-SECTION > div IMG{
+.THRID-SECTION > DIv IMG{
     width: 250px;
     border-radius: 10px;
 } 
 
-.THRID-SECTION > div P{
+.THRID-SECTION > DIv P{
     max-width: 600px;
-    color: var(--white);
+    color: var(--dark5);
     text-align: justify;
 } 
+
+colormf{
+    font-weight: bolder;
+    color: var(--rosa1)
+}
 
 .FOURTH-SECTION{
     background-color: var(--dark2);
