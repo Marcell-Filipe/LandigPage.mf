@@ -314,7 +314,7 @@ footer > div{
     color: var(--dark3);
 }
 
-#MY-PROJETS-LIST:hover a{
+#MY-PROJETS-LIST: a:hover{
     text-decoration: none;
     color: var(--dark4);
     transition: .2s;
