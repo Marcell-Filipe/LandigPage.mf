@@ -51,6 +51,7 @@ header{
     min-height: 50px;
 }
 
+
 .box-img-header{
     height: 100%;
 }
@@ -66,11 +67,12 @@ nav{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 13px;
 }
 
 .nav-links{
     text-decoration: none;
-    color: var(--white)
+    color: var(--dark5)
 }
 
 .nav-links:hover{
@@ -85,7 +87,7 @@ nav{
 }
 
 button,.link-action{
-    padding: .6rem;
+    padding: .3rem;
     font-size: 60%;
     border-radius: 15px;
     cursor: pointer;
@@ -95,9 +97,9 @@ button,.link-action{
 .BTN-ACTION{
     background-color: transparent;
     border: 1px solid var(--white);
-    color: var(--white);
+    color: var(--dark5);
     font-family: 'lato';
-    font-size:smaller;
+    font-size: 11px;
 }
 
 .BTN-ACTION:hover{
@@ -108,9 +110,9 @@ button,.link-action{
 .BTN-ACTION-2{
     background-color: var(--rosa1);
     border: 1px solid var(--rosa1);
-    color: var(--white);
+    color: var(--dark5);
     font-family: 'lato';
-    font-size:smaller;
+    font-size:11px;
 }
 
 .BTN-ACTION-2:hover{
@@ -123,8 +125,8 @@ button,.link-action{
     border: 1px solid var(--rosa1);
     color: var(--white);
     font-family: 'lato';
-    font-size: medium;
-    padding: 6px;
+    font-size: 14px;
+    padding: 5px;
 }
 
 .BTN-ACTION-3:hover{
@@ -138,7 +140,6 @@ button,.link-action{
     text-align: center;
 }
 
-
 main{
     display: flex;
     flex-direction: column;
@@ -147,6 +148,10 @@ main{
 
 section{
     padding: 4rem;
+}
+
+w{
+    vertical-align: top;
 }
 
 .FIRST-SECTION{
@@ -248,11 +253,12 @@ strong{
     max-width: 600px;
     color: var(--dark5);
     text-align: justify;
+    font-size: 11px;
 } 
 
 colormf{
     font-weight: bolder;
-    color: var(--rosa1)
+    color: var(--cyan1)
 }
 
 .FOURTH-SECTION{
@@ -297,7 +303,7 @@ footer > div{
     flex-wrap: wrap;
     align-items: center;
     min-height: 2rem;
-    background-color: var(--rosa1);
+    background-color: transparent;
     text-decoration: none;
     color: var(--dark5);
     font-family: 'oswald';
@@ -306,7 +312,9 @@ footer > div{
 #MY-PROJETS-LIST{
     display: flex;
     gap: 2rem;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #MY-PROJETS-LIST a{
@@ -314,12 +322,12 @@ footer > div{
     color: var(--dark3);
 }
 
-#MY-PROJETS-LIST: a:hover{
-    text-decoration: none;
+#MY-PROJETS-LIST a:hover{
     color: var(--dark4);
-    transition: .2s;
+    transition: .4s;
     cursor: pointer;
 }
+
 
 :is(.img-profile,.IMG-WHO-AM-I){
     box-shadow: 1px 1px 1px 1px var(--rosa1);
